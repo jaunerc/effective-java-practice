@@ -1,0 +1,7 @@
+# intellij directories
+.idea/*
+*.iml
+
+# java
+target/*
+*.class
