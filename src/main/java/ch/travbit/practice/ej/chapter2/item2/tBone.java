@@ -40,7 +40,7 @@ public class tBone extends CutOfBeef {
             if (tenderloinThicknessInMilliM >= MIN_THICKNESS) {
                 this.tenderloinThicknessInMilliM = tenderloinThicknessInMilliM;
             } else {
-                throw new IllegalArgumentException("The tenderloin must be at least 32 mm thick");
+                throw new IllegalArgumentException("The tenderloin must be at least " + MIN_THICKNESS + " mm thick");
             }
             return self();
         }
